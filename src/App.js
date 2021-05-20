@@ -1,5 +1,3 @@
-import "./App.css";
-
 import {
   Hero,
   Header,
@@ -12,11 +10,11 @@ import {
 function App() {
   return (
     <div className="App">
-      {/* <Header /> */}
-      {/* <Hero /> */}
+      <Header />
+      <Hero />
       {/* <Pluses /> */}
       {/* <CommunitySaying /> */}
-      <WhatGetting />
+      {/* <WhatGetting /> */}
       {/* <Footer /> */}
     </div>
   );

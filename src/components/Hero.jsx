@@ -2,7 +2,7 @@ import React from "react";
 
 function Hero() {
   return (
-    <div classname="Hero">
+    <div className="Hero">
       <div>Check y ^^ ur well-being</div>
       <div>
         We’re sure that deciding to check on your health is a big step, even if
