@@ -1,13 +1,22 @@
 import "./App.css";
 
-import { Hero, Header, Footer, Pluses } from "./components/index";
+import {
+  Hero,
+  Header,
+  Footer,
+  Pluses,
+  CommunitySaying,
+  WhatGetting,
+} from "./components/index";
 
 function App() {
   return (
     <div className="App">
       {/* <Header /> */}
       {/* <Hero /> */}
-      <Pluses />
+      {/* <Pluses /> */}
+      {/* <CommunitySaying /> */}
+      <WhatGetting />
       {/* <Footer /> */}
     </div>
   );

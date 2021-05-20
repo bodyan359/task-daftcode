@@ -2,7 +2,7 @@ import React from "react";
 
 function CommunitySaying() {
   return (
-    <div>
+    <div className="CommunitySaying">
       <div>What our community is saying?</div>
       <div>
         A mission-driven company that invest in and builds healthier living
