@@ -1,13 +1,13 @@
 import "./App.css";
 
-import Footer from "./components/Footer";
-import Header from "./components/Header";
+import { Hero, Header, Footer } from "./components/index";
 
 function App() {
   return (
     <div className="App">
       {/* <Header /> */}
-      <Footer />
+      <Hero />
+      {/* <Footer /> */}
     </div>
   );
 }
