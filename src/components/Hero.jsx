@@ -3,6 +3,12 @@ import React from "react";
 function Hero() {
   return (
     <div classname="Hero">
+      <div>Check y ^^ ur well-being</div>
+      <div>
+        We’re sure that deciding to check on your health is a big step, even if
+        it doesn’t bother in any way.{" "}
+      </div>
+      <button>Get started</button>
       <svg
         width="677"
         height="385"
