@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import {
   Hero,
   Header,
@@ -11,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Hero />
+      {/* <Hero /> */}
       {/* <Pluses /> */}
       {/* <CommunitySaying /> */}
       {/* <WhatGetting /> */}

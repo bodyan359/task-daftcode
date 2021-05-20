@@ -1,3 +1,45 @@
 .Header {
+  padding-top: 30px;
   background: #fef4e6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+.inline {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+.float {
+  float: right;
+}
+
+.LoginButton {
+  text-align: center;
+  width: 124px;
+  height: 50px;
+  line-height: 50px;
+  background: #fabd20;
+  border-radius: 8px;
+}
+
+.TopMenu {
+  padding-left: 8%;
+  font-family: Reem Kufi;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: #131e07;
+}
+
+.CompanyLogo {
+  padding-left: 8%;
+  vertical-align: middle;
+}
+// .onPage {
+// position: relative;
+//   width: 8px;
+//   height: 8px;
+//   top: 70px;
+//   background: #fabd20;
+// }
