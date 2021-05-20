@@ -25,7 +25,7 @@ function Footer() {
       ======
       <div class="inputWithButton">
         <div>Try Medli for free</div>
-        <input type="text" placeholder="Enter your Name" />
+        <input type="text" placeholder="Enter your email" />
         <button>Get Started</button>
       </div>
       <svg
