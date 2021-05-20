@@ -12,8 +12,8 @@ function App() {
   return (
     <div className="App">
       <Header />
-      {/* <Hero /> */}
-      {/* <Pluses /> */}
+      <Hero />
+      <Pluses />
       {/* <CommunitySaying /> */}
       {/* <WhatGetting /> */}
       {/* <Footer /> */}

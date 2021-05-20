@@ -1,3 +1,50 @@
 .Hero {
+  padding-top: 8%;
+  padding-bottom: 8%;
   background: #fef4e6;
+}
+
+.CTA {
+  background: #fabd20;
+  border-radius: 8px;
+  padding: 16px 80px;
+  color: #131e07;
+  font-family: Reem Kufi;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 37px;
+}
+.checkUR {
+  font-family: Rozha One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 117%;
+  /* or 94px */
+
+  color: #131e07;
+}
+
+.subtext {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  font-family: Reem Kufi;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: #40462f;
+}
+
+.right {
+  float: right;
+  width: 677px;
+}
+
+.left {
+  padding-left: 8%;
+  width: auto;
+  overflow: hidden;
+  height: auto;
 }
