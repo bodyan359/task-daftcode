@@ -1,0 +1,72 @@
+.WhatGetting {
+  background: #fef4e6;
+}
+
+.whatGet {
+  padding-left: 8%;
+  padding-top: 8%;
+  font-family: Rozha One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 117%;
+  /* identical to box height, or 94px */
+
+  font-feature-settings: "haln" on;
+
+  color: #131e07;
+}
+.weBring {
+  max-width: 596px;
+  padding-left: 8%;
+  font-family: Reem Kufi;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #131e07;
+}
+.benefits {
+  max-width: 350px;
+  border-radius: 8px;
+  text-align: center;
+  background: #ffffff;
+}
+.benefitsSVG {
+  padding-top: 30px;
+}
+
+.benefitsText {
+  font-family: Rozha One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 117%;
+  /* identical to box height, or 28px */
+  text-align: center;
+  color: #131e07;
+}
+
+.benefitsSubText {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  max-width: 250px;
+  font-family: Reem Kufi;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+
+  color: #131e07;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 8%;
+  padding-bottom: 8%;
+}

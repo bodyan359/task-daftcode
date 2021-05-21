@@ -2,9 +2,13 @@
   padding-top: 8%;
   padding-bottom: 8%;
   background: #fef4e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .CTA {
+  border: none;
   background: #fabd20;
   border-radius: 8px;
   padding: 16px 80px;
@@ -16,6 +20,7 @@
   line-height: 37px;
 }
 .checkUR {
+  max-width: 445px;
   font-family: Rozha One;
   font-style: normal;
   font-weight: normal;
@@ -27,6 +32,7 @@
 }
 
 .subtext {
+  max-width: 445px;
   padding-top: 15px;
   padding-bottom: 20px;
   font-family: Reem Kufi;

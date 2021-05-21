@@ -2,6 +2,7 @@
   background: #fabd20;
 }
 .headText {
+  padding-top: 8%;
   margin: auto;
   text-align: center;
   max-width: 839px;
@@ -16,13 +17,15 @@
 
   color: #131e07;
 }
-.VideoButton {
-  display: grid;
-  place-items: center;
+.videoButton {
+  position: relative;
+  // display: inline-block;
 }
 .playButton {
-  display: grid;
-  place-items: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 .subText {
   margin: auto;
@@ -37,6 +40,7 @@
   padding-bottom: 56px;
 }
 .video {
+  width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;

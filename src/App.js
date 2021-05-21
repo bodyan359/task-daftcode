@@ -15,7 +15,7 @@ function App() {
       <Hero />
       <Pluses />
       <CommunitySaying />
-      {/* <WhatGetting /> */}
+      <WhatGetting />
       {/* <Footer /> */}
     </div>
   );
