@@ -29,8 +29,14 @@
 
 .inputInput {
   @media (max-width: 376px) {
-    position: initial;
+    width: 326px;
+    height: 62px;
+    border: 1px solid #7c8176;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 15px;
   }
+  background: none;
   width: 350px;
   height: 50px;
   padding-left: 15px;
@@ -43,6 +49,13 @@
   border-radius: 4px;
 }
 .buttonInput {
+  @media (max-width: 376px) {
+    width: 326px;
+    height: 62px;
+    border-radius: 8px;
+    margin-left: 0px;
+  }
+
   margin-left: -130px;
   width: 113px;
   height: 34px;
@@ -57,5 +70,12 @@
 }
 
 .posRight {
-  padding-left: 0px;
+  text-align: right;
+  padding-right: 10%;
+}
+
+.termsAndConditions {
+  @media (max-width: 376px) {
+    display: none;
+  }
 }
