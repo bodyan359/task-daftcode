@@ -41,9 +41,13 @@ function Header() {
                 <rect y="14" width="30" height="3" rx="1.5" fill="#131E07" />
               </svg>
             }
-            position="right center"
+            position="left center"
           >
-            <div>Popup content here !!</div>
+            <div className="mobileMenu">
+              {MENU_ITEMS.map((menu_item) => (
+                <div className="menuItem">{menu_item}</div>
+              ))}
+            </div>
           </Popup>
         )}
       </ul>
