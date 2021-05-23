@@ -1,0 +1,56 @@
+.Footer {
+  background: #131e07;
+  padding-top: 8%;
+  padding-left: 8%;
+  color: whitesmoke;
+}
+
+.footerText {
+  padding-right: 0px;
+  font-family: Reem Kufi;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  padding-bottom: 19px;
+  color: #7c8176;
+}
+
+.footerSubText {
+  font-family: Reem Kufi;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+
+  color: #e5e5e5;
+}
+
+.inputInput {
+  position: absolute;
+  border: 1px solid #7c8176;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 350px;
+  height: 50px;
+  background: none;
+}
+.inputButton {
+  background: #fabd20;
+  border-radius: 4px;
+}
+.buttonInput {
+  width: 113px;
+  height: 34px;
+  background: #fabd20;
+  border-radius: 4px;
+}
+.inputWithButton {
+  position: relative;
+  display: inline-block;
+}
+
+.posRight {
+  padding-left: 0px;
+}
