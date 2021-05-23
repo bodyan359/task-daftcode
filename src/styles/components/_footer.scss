@@ -28,21 +28,26 @@
 }
 
 .inputInput {
-  position: absolute;
+  @media (max-width: 376px) {
+    position: initial;
+  }
+  width: 350px;
+  height: 50px;
+  padding-left: 15px;
   border: 1px solid #7c8176;
   box-sizing: border-box;
   border-radius: 8px;
-  width: 350px;
-  height: 50px;
-  background: none;
 }
 .inputButton {
   background: #fabd20;
   border-radius: 4px;
 }
 .buttonInput {
+  margin-left: -130px;
   width: 113px;
   height: 34px;
+  border: 0;
+  -webkit-appearance: none;
   background: #fabd20;
   border-radius: 4px;
 }

@@ -54,3 +54,10 @@
   overflow: hidden;
   height: auto;
 }
+
+.heroSvg {
+  @media (max-width: 376px) {
+    width: 327px;
+    float: none;
+  }
+}

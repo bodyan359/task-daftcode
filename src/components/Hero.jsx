@@ -3,31 +3,9 @@ import React from "react";
 function Hero() {
   return (
     <div className="Hero">
-      <div className="left">
-        <div className="checkUR">
-          Check y
-          <svg
-            width="56"
-            height="43"
-            viewBox="0 0 56 43"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M56 28C56 43.464 43.464 42 28 42C12.536 42 0 43.464 0 28C0 12.536 12.536 0 28 0C43.464 0 56 12.536 56 28Z"
-              fill="#FABD20"
-            />
-          </svg>
-          ur well-being
-        </div>
-        <div className="subtext">
-          We’re sure that deciding to check on your health is a big step, even
-          if it doesn’t bother in any way.{" "}
-        </div>
-        <button className="CTA">Get started</button>
-      </div>
       <div className="right">
         <svg
+          className="heroSvg"
           width="677"
           height="385"
           viewBox="0 0 677 385"
@@ -477,6 +455,29 @@ function Hero() {
             fill="#131E07"
           />
         </svg>
+      </div>
+      <div className="left">
+        <div className="checkUR">
+          Check y
+          <svg
+            width="56"
+            height="43"
+            viewBox="0 0 56 43"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M56 28C56 43.464 43.464 42 28 42C12.536 42 0 43.464 0 28C0 12.536 12.536 0 28 0C43.464 0 56 12.536 56 28Z"
+              fill="#FABD20"
+            />
+          </svg>
+          ur well-being
+        </div>
+        <div className="subtext">
+          We’re sure that deciding to check on your health is a big step, even
+          if it doesn’t bother in any way.{" "}
+        </div>
+        <button className="CTA">Get started</button>
       </div>
     </div>
   );
