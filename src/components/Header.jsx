@@ -1,6 +1,9 @@
 import React from "react";
+
 import logo from "../img/Logo.png";
+
 import classNames from "classnames";
+import Popup from "reactjs-popup";
 
 function Header() {
   let MENU_ITEMS = ["Home", "About", "Courses", "News", "Contact", "Log in"];
@@ -24,18 +27,24 @@ function Header() {
             </li>
           ))
         ) : (
-          <svg
-            onClick={() => console.log("POPUP")}
-            width="30"
-            height="17"
-            viewBox="0 0 30 17"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
+          <Popup
+            trigger={
+              <svg
+                width="30"
+                height="17"
+                viewBox="0 0 30 17"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect width="30" height="3" rx="1.5" fill="#131E07" />
+                <rect y="7" width="30" height="3" rx="1.5" fill="#131E07" />
+                <rect y="14" width="30" height="3" rx="1.5" fill="#131E07" />
+              </svg>
+            }
+            position="right center"
           >
-            <rect width="30" height="3" rx="1.5" fill="#131E07" />
-            <rect y="7" width="30" height="3" rx="1.5" fill="#131E07" />
-            <rect y="14" width="30" height="3" rx="1.5" fill="#131E07" />
-          </svg>
+            <div>Popup content here !!</div>
+          </Popup>
         )}
       </ul>
     </div>
