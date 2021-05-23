@@ -5,7 +5,7 @@ import women from "../img/woman-freelance-worker-does-yoga-exersice-workplace-en
 function CommunitySaying() {
   return (
     <div className="CommunitySaying">
-      <div className="headText">what our community is saying?</div>
+      <div className="headText">What our community is saying?</div>
       <div className="subText">
         A mission-driven company that invest in and builds healthier living
       </div>

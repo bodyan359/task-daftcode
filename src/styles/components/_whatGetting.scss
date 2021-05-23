@@ -7,13 +7,16 @@
   padding-top: 8%;
   font-family: Rozha One;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 80px;
   line-height: 117%;
   /* identical to box height, or 94px */
+  @media (max-width: 376px) {
+    font-size: 50px;
+    line-height: 117%;
 
-  font-feature-settings: "haln" on;
-
+    /* or 58px */
+  }
   color: #131e07;
 }
 .weBring {
@@ -24,6 +27,13 @@
   font-weight: normal;
   font-size: 24px;
   line-height: 36px;
+  @media (max-width: 376px) {
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: 30px;
+
+    /* or 58px */
+  }
 
   color: #131e07;
 }
@@ -35,6 +45,8 @@
   @media (max-width: 376px) {
     display: block;
     margin-bottom: 40px;
+    width: 327px;
+    height: 439px;
   }
 }
 .benefitsSVG {
@@ -44,12 +56,15 @@
 .benefitsText {
   font-family: Rozha One;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 24px;
   line-height: 117%;
   /* identical to box height, or 28px */
   text-align: center;
   color: #131e07;
+  @media (max-width: 376px) {
+    padding-top: 80px;
+  }
 }
 
 .benefitsSubText {

@@ -460,8 +460,8 @@ function Hero() {
         <div className="checkUR">
           Check y
           <svg
-            width="56"
-            height="43"
+            width={window.innerWidth > 376 ? "56" : "27"}
+            height={window.innerWidth > 376 ? "43" : "20"}
             viewBox="0 0 56 43"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"

@@ -8,12 +8,21 @@
   max-width: 839px;
   font-family: Rozha One;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 80px;
   line-height: 117%;
   /* or 94px */
   padding-bottom: 40px;
   font-feature-settings: "haln" on;
+
+  @media (max-width: 376px) {
+    font-size: 50px;
+    line-height: 117%;
+    /* or 58px */
+    padding-left: 24px;
+    text-align: left;
+    font-feature-settings: "haln" on;
+  }
 
   color: #131e07;
 }
@@ -38,6 +47,13 @@
   line-height: 36px;
   color: #131e07;
   padding-bottom: 56px;
+  @media (max-width: 376px) {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
 }
 .video {
   width: 100%;

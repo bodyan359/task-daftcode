@@ -1,5 +1,9 @@
 .Hero {
   padding-top: 8%;
+  @media (max-width: 376px) {
+    padding-top: 0px;
+    display: grid;
+  }
   padding-bottom: 8%;
   background: #fef4e6;
   display: flex;
@@ -18,13 +22,21 @@
   font-weight: normal;
   font-size: 25px;
   line-height: 37px;
+  @media (max-width: 376px) {
+    width: 327px;
+    height: 62px;
+    line-height: 0px;
+  }
 }
 .checkUR {
   max-width: 445px;
   font-family: Rozha One;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 80px;
+  @media (max-width: 376px) {
+    font-size: 50px;
+  }
   line-height: 117%;
   /* or 94px */
 
@@ -45,7 +57,9 @@
 
 .right {
   float: right;
-  width: 677px;
+  @media (max-width: 376px) {
+    float: none;
+  }
 }
 
 .left {

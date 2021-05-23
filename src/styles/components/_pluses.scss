@@ -6,6 +6,7 @@
   padding-bottom: 8%;
   @media (max-width: 376px) {
     display: block;
+    text-align: center;
   }
 }
 
@@ -16,7 +17,7 @@
 .yellowNumbers {
   font-family: Rozha One;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 80px;
   line-height: 117%;
   /* identical to box height, or 94px */
@@ -33,6 +34,10 @@
   font-size: 24px;
   line-height: 36px;
   text-align: center;
-
+  @media (max-width: 376px) {
+    padding-bottom: 10%;
+    font-size: 20px;
+    line-height: 30px;
+  }
   color: #131e07;
 }
