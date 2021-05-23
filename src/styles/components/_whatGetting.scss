@@ -85,7 +85,7 @@
 
 .columns {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding-top: 8%;
   padding-bottom: 8%;
   @media (max-width: 376px) {

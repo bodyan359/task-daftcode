@@ -3,10 +3,7 @@
   background: #fef4e6;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  @media (max-width: 376px) {
-    justify-content: space-around;
-  }
+  justify-content: space-around;
 }
 .inline {
   display: inline-block;
