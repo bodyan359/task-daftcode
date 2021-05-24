@@ -23,7 +23,7 @@ function Footer() {
         />
       </svg>
 
-      <div className="columns">
+      <div className="footerColumns">
         <div className="footerSubText">
           <div className="footerText">Product</div>
           <div>Updates</div>
@@ -45,7 +45,7 @@ function Footer() {
           <div>API Docs</div>
           <div>System Status</div>
         </div>
-        <div className="inputWithButton">
+        <div className="inputWithButton toFirstPlace">
           <div className="footerText">Try Medli for free</div>
           <div className="inputWithButton">
             <input
